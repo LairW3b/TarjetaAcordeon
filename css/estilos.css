@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.contenedor{
+    position: absolute;
+    width: 375px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
+    background: rgb(101,101,231);
+    background: linear-gradient(0deg, rgba(101,101,231,1) 0%, rgba(175,103,233,1) 100%);
+}
+
+.woman{
+    position: absolute;
+    width: 266px;
+    height: 196px;
+    left: 41px;
+    top: 42px;
+    z-index: 20;
+}
+
+.sombra{
+    position: absolute;
+    width: 240px;
+    height: 104px;
+    left: 67px;
+    top: 147px;
+    z-index: 15;
+}
+
+.contentText{
+    position: absolute;
+    width: 327px;
+    height: 536px;
+    left: 24px;
+    top: 147px;
+    background-color: #ffffff;
+    box-shadow: 0px 30px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+
+.titulo{
+    position: relative;
+    width: auto;
+    height: 32px;
+    left: 155px;
+    top: 286px;
+
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+
+    color: #1E1E34;
+}
+
+.selectores{
+    position: absolute;
+    width: 279px;
+    height: 13px;
+    left: 49px;
+    top: 353px;
+}
